@@ -1,0 +1,49 @@
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px;
+  margin-left: 5px;
+  font-size: 14px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #f9f9f9;
+  margin-bottom: 5px;
+}
+
+li span {
+  flex-grow: 1;
+}
+
+li button {
+  background-color: #f44336;
+  color: white;
+  border: none;
+}
